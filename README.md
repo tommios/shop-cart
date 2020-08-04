@@ -31,3 +31,19 @@ npm run dev
 #
 
 ### Screenshots:
+
+##### CartPage:
+
+![Иллюстрация к проекту](https://github.com/tommios/shop-cart/blob/master/image/cart-img.JPG)
+
+##### ShippingPage:
+
+![Иллюстрация к проекту](https://github.com/tommios/shop-cart/blob/master/image/shipping-img.JPG)
+
+##### Test:
+
+![Иллюстрация к проекту](https://github.com/tommios/shop-cart/blob/master/image/postman-img.JPG)
+
+##### MongoDB:
+
+![Иллюстрация к проекту](https://github.com/tommios/shop-cart/blob/master/image/mongo-img.JPG)
