@@ -3,7 +3,6 @@ const isEmpty = require("is-empty");
 
 module.exports = function validateOrderInput(data) {
   let errors = {};
-
   // Convert empty fields to an empty string so we can use validator functions
   data.customer.name = !isEmpty(data.customer.name) ? data.customer.name : "";
 

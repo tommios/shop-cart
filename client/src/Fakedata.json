@@ -1,0 +1,40 @@
+{
+  "goods": [
+    {
+      "_id": "57e7c35d5b04a172f66f5e5a",
+      "title": "Title Lorem ipsum dolor sit 01",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, unde voluptas cupiditate nam asperiores labore at illo.",
+      "price": 25,
+      "img": "http://via.placeholder.com/100x100/98f194?text=placeholder.com"
+    },
+    {
+      "_id": "57e7c35d3ed054bbdde87b66",
+      "title": "Title Lorem ipsum dolor sit 02",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, unde voluptas cupiditate nam asperiores labore at illo.",
+      "price": 25,
+      "img": "http://via.placeholder.com/100x100/98f194?text=placeholder.com"
+    },
+    {
+      "_id": "57e7c35da0c55508aec1deac",
+      "title": "Title Lorem ipsum dolor sit 03",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, unde voluptas cupiditate nam asperiores labore at illo.",
+      "price": 25,
+      "img": "http://via.placeholder.com/100x100/98f194?text=placeholder.com"
+    }
+  ],
+  "cart": [
+    {
+      "_id": "57e7c35d5b04a172f66f5e5a",
+      "quantity": 3
+    },
+    {
+      "_id": "57e7c35d3ed054bbdde87b66",
+      "quantity": 3
+    },
+    {
+      "_id": "57e7c35da0c55508aec1deac",
+      "quantity": 3
+    }
+  ],
+  "orders": []
+}

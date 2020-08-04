@@ -1,0 +1,22 @@
+.cart-page {
+  width: 90%;
+  margin: 20px 20px;
+}
+
+.total {
+  padding: auto 40px;
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.order {
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 120px;
+  font-size: 14px;
+  background-color: #e4e4e4;
+}

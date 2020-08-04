@@ -1,0 +1,101 @@
+.cart-item {
+  width: 90%;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  border-bottom: 1px solid #dddbdb;
+}
+
+.image {
+  margin: 10px;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.main-info-cell {
+  margin: 10px;
+  flex-grow: 5;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.bar {
+  margin: 10px;
+  border-left: 1px solid #dddbdb;
+}
+
+.quantity-cell {
+  margin: 10px;
+  display: flex;
+  flex-grow: 2;
+  align-items: center;
+}
+
+.item-summary-cell {
+  margin: 10px;
+  min-width: 40px;
+  flex-grow: 2;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+}
+
+.summary-cell {
+  align-self: center;
+}
+
+.trash {
+  border: none;
+  background-image: url("../icons/trash512.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 14px auto;
+  align-items: right;
+  align-self: flex-start;
+}
+
+button.trash:focus {
+  background-size: 18px auto;
+}
+
+button.trash,
+button.trash:active {
+  outline: none;
+}
+
+input {
+  width: 20%;
+
+  font-size: 18px;
+  padding: 10px 0;
+  border: none;
+  line-height: 18px;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 2px;
+}
