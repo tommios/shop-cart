@@ -14,6 +14,11 @@ function App() {
         <Switch>
           <Route
             exact
+            path="/"
+            render={(props) => <CartPage items={Fakedata.cart} {...props} />}
+          />
+          <Route
+            exact
             path="/cart"
             render={(props) => <CartPage items={Fakedata.cart} {...props} />}
           />
