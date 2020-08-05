@@ -7,6 +7,8 @@ class ShippingPage extends Component {
     super(props);
 
     this.order = props.location.order;
+    this.totalPrice = props.location.totalPrice;
+
     this.state = {
       name: "",
       address: "",
@@ -15,6 +17,19 @@ class ShippingPage extends Component {
       shippingOptions: "",
       errors: {},
     };
+  }
+
+  componentDidMount() {
+    if (this.totalPrice > 300) {
+      let el = document.forms["neworder"].elements["shippingOptions"].options;
+      let option = new Option(
+        "Free Express Shipping",
+        "Free Express Shipping",
+        true,
+        true
+      );
+      el.add(option);
+    }
   }
 
   onChange = (e) => {
@@ -48,7 +63,7 @@ class ShippingPage extends Component {
   render() {
     return (
       <div className="container">
-        <form onSubmit={this.onSubmit}>
+        <form onSubmit={this.onSubmit} name="neworder">
           <div className="row">
             <div className="col-25">
               <label>Name*</label>
@@ -112,6 +127,7 @@ class ShippingPage extends Component {
             <div className="col-50">
               <select
                 id="shippingOptions"
+                name="shippingOptions"
                 onChange={this.onChange}
                 value={this.state.shippingOptions}
               >

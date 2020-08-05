@@ -96,6 +96,7 @@ class CartPage extends Component {
             to={{
               pathname: "../shipping",
               order: this.state.cartItems,
+              totalPrice: this.state.totalPrice,
             }}
           >
             <button className="btn" disabled={isActive}>
